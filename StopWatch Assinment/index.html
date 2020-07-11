@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+body { 
+  background-image: url('stopwatch background.jpeg');
+  text-align: center;
+  border: 2px solid black;
+  margin: 0 auto;
+  width: 400px;
+  height: 300px;
+}
+
+h1 {
+  color: black;
+  display: inline-block;
+  box-shadow: 00 5px #ccc;
+  border: 1px solid #eee;
+  width: auto;
+  height: auto;
+  background-color : beige;
+}
+
+</style>
+
+<body>
+<section>
+    <div>
+    <h1 >Stop Watch</h1>
+  </div>
+<div>
+  <h1 id = "min">00</h1>
+  <h1 id= "sec">00</h1>
+  <h1 id= "msec">00</h1>
+</div>
+<!-- <p id="timer">Time 00:00:00</p> -->
+<div id="button">
+  <button onclick="start()">Start</button>
+  <button onclick= "stop()">Stop</button>
+  <button onclick= "reset()">Reset</button>
+
+</div>
+
+</section>
+
+  <script src = "app.js"></script>
+</body>
+</html>
